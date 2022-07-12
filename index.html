@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name=”robots” content=”noindex,nofollow”>
+
+  <title>Conference</title>
+
+  <link href="static/img/favicon.png" rel="icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="static/style.css" rel="stylesheet">
+
+  <meta name='theme-color' content='#222'>
+  <meta name='msapplication-navbutton-color' content='#222'>
+  <meta name='apple-mobile-web-app-status-bar-style' content='#222'>
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">EXAMPLE</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li class="dropdown"><a href="#strands"><span>Strands</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#talks" data-filter=".filter-strandA" class="talk-filter">Strand A</a></li>
+              <li><a href="#talks" data-filter=".filter-strandB" class="talk-filter">Strand B</a></li>
+              <li><a href="#talks" data-filter=".filter-strandC" class="talk-filter">Strand C</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#talks">Talks</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">Speakers</a></li>
+          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+          <li><a class="getstarted scrollto" target="_blank" href="#files">See Schedule</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>IMPROVISE.</h1>
+          <h1>ADAPT.</h1>
+          <h1>OVERCOME.</h1>
+          <h2>Join us as we celebrate this example event.</h2>
+          <div><a target="_blank" href="#files" class="btn-get-started scrollto">See Schedule</a></div>
+        </div>
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+          <img src="static/img/favicon.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+            data-aos-delay="150">
+            <img src="static/img/favicon.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Be a part of this example conference.</h3>
+            <p class="fst-italic">
+              After a long wait, we are delighted to announce that the very first example conference will be taking
+              place on Friday. Here's what we are trying to achieve:
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> A chance to network and catch up with old friends.</li>
+              <li><i class="bi bi-check-circle"></i> Celebrate each other's achievements.</li>
+              <li><i class="bi bi-check-circle"></i> See the full breadth of this example sector.</li>
+              <li><i class="bi bi-check-circle"></i> Take your knowledge of the cutting edge of this field back to your work.
+              </li>
+            </ul>
+            <a href="#files" class="read-more">See Schedule <i class="bi bi-long-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Attendees</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Strands</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Speakers</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p>Sessions</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="networking" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+            data-aos-delay="150">
+            <img src="static/img/favicon.png" class="img-fluid img-smaller" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>Come along to our networking event.</h3>
+            <p class="fst-italic">
+              After months of lockdown, we welcome you to join us for our networking event, the evening before the
+              conference.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Kindly sponsored by me.</li>
+              <li><i class="bi bi-check-circle"></i> Sign up to get a ticket entitling you to a free drinks voucher.
+              </li>
+              <li><i class="bi bi-check-circle"></i> Light canapés will be served.</li>
+              <li><i class="bi bi-check-circle"></i> Your place, your town. 
+              </li>
+            </ul>
+            <a target="_blank" href="https://goo.gl/maps" class="read-more">Find on map <i
+                class="bi bi-long-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strands" class="strands section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Strands</h2>
+          <p>We have split our talks into three rough strands to try to contain the sheer breadth of the
+            industry. Either stick to one strand that you have a particular passion for or attend talks across different
+            strands, the choice is yours.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <a href="#talks" data-filter=".filter-strandA" class="talk-filter">
+              <div class="icon-box iconbox-blue">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/favicon.png" class="img-fluid" alt="">
+                </div>
+                <h4>A - Strand A</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies tempor tellus, in gravida felis fringilla in. 
+                  Vestibulum ac feugiat diam. Integer eget enim id turpis scelerisque varius ultricies eget elit. Duis sit amet dignissim mauris. 
+                  Nulla facilisi. Nulla viverra sagittis ornare. Integer quis mollis urna.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <a href="#talks" data-filter=".filter-strandB" class="talk-filter">
+              <div class="icon-box iconbox-orange ">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/favicon.png" class="img-fluid" alt="">
+                </div>
+                <h4>B - Strand B</h4>
+                <p>Praesent vitae placerat sapien. Sed ultrices ligula eget quam tristique tempor. Fusce maximus, turpis eget pretium efficitur, 
+                  tortor nisi semper nisi, sed vehicula neque erat et elit. Curabitur massa nunc, vehicula non metus in, egestas elementum ligula. 
+                  Pellentesque sollicitudin, libero eget pulvinar tincidunt, turpis dolor porta erat, nec vehicula sem ligula et neque. Ut congue tortor vel nibh porttitor, 
+                  et ultricies odio placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit dolor vitae finibus condimentum.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <a href="#talks" data-filter=".filter-strandC" class="talk-filter">
+              <div class="icon-box iconbox-pink">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/favicon.png" class="img-fluid" alt="">
+                </div>
+                <h4>C - Strand C</h4>
+                <p>Duis imperdiet dolor mi, eget condimentum neque laoreet nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                  Donec sagittis aliquam condimentum. Integer blandit quis magna iaculis accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                  Nulla sodales non urna vitae tempor. Sed aliquam tempor sem at efficitur. Nunc vitae ante vitae ante interdum gravida. Proin id enim nisl. 
+                  Nulla pretium consectetur rutrum.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section id="talks" class="talks">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Talks</h2>
+          <p>All the talks for the conference are given below, you can filter by track or location. <strong> Hover/tap
+              on</strong> the talks you are interested in to find out more.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="talks-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-strandA">A - Strand A</li>
+              <li data-filter=".filter-strandB">B - Strand B</li>
+              <li data-filter=".filter-strandC">C - Strand C</li>
+              <li data-filter=".filter-alpha">Alpha</li>
+              <li data-filter=".filter-bravo">Bravo</li>
+              <li data-filter=".filter-charlie">Charlie</li>
+              <li data-filter=".filter-delta">Delta</li>
+              <li data-filter=".filter-echo">Echo</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row talks-container">
+          <div class="col-lg-4 col-md-6 talks-item filter-alpha">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="white">Plenary</h3>
+                <h4>Welcome & Keynote</h4>
+                <p>Bob Ross</p>
+                <h4>09:30</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Alpha Suite
+              </div>
+              <div class="talks-info white">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandA filter-charlie">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandA">Strand A</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>11:00</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Charlie Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandB filter-delta">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandB">Strand B</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>11:00</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Delta Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandC filter-echo">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandC">Strand C</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>11:00</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Echo Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandA filter-charlie">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandA">Strand A</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>12:10</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Charlie Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandB filter-delta">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandB">Strand B</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>12:10</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Delta Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandC filter-bravo">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandC">Strand C</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>12:10</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Bravo Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-alpha">
+            <div class="box talks-wrap card">
+              <h3 class="white card-header">Plenary</h3>
+              <div class="talks-main card-body">
+
+                <h4>Networking & Lunch</h4>
+                <p>Hot & cold food</p>
+                <h4>13:00</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Alpha Suite
+              </div>
+              <div class="talks-info white">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandA filter-delta">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandA">Strand A</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>14:20</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Delta Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandB filter-echo">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandB">Strand B</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>14:20</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Echo Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandC filter-charlie">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandC">Strand C</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>14:20</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Charlie Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandC filter-bravo">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandC">Strand C</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>14:10</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Bravo Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandA filter-echo">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandA">Strand A</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>15:30</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Echo Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandB filter-charlie">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandB">Strand B</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>15:30</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Charlie Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-strandC filter-delta">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="strandC">Strand C</h3>
+                <h4>Interesting Talk</h4>
+                <p>Placeholder name</p>
+                <h4>15:30</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Delta Suite
+              </div>
+              <div class="talks-info">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 talks-item filter-alpha">
+            <div class="box talks-wrap card">
+              <div class="talks-main card-body">
+                <h3 class="white">Plenary</h3>
+                <h4>Closing Session</h4>
+                <p>Interesting people</p>
+                <h4>16:15</h4>
+              </div>
+              <div class="btn-wrap card-footer">
+                Alpha Suite
+              </div>
+              <div class="talks-info white">
+                <p class="textBody">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                  totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <section id="slido" class="slido">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-6 text-center align-items-center justify-content-center">
+            <a target="blank" href="https://www.sli.do/" class="white">
+              <h1>slido.</h1>
+            </a>
+          </div>
+          <div class="col-lg-3 col-6 text-center strandA">
+            <a target="blank" href="https://app.sli.do/">
+              <h2>123456</h2>
+              <p>Slido 1</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-6 text-center strandB">
+            <a target="blank" href="https://app.sli.do/">
+              <h2>234567</h2>
+              <p>Slido 2</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-6 text-center strandC">
+            <a target="blank" href="https://app.sli.do/">
+              <h2>345678</h2>
+              <p>Slido 3</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers" class="speakers section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Speakers</h2>
+          <p>We've gathered the best talent from across the whole of the UK to speak at this event, they are sure to
+            impress.</p>
+        </div>
+
+        <div class="speakers-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="speaker-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Praesent vitae placerat sapien. Sed ultrices ligula eget quam tristique tempor. Fusce maximus, 
+                  turpis eget pretium efficitur, tortor nisi semper nisi, sed vehicula neque erat et elit. Curabitur massa nunc, 
+                  vehicula non metus in, egestas elementum ligula. Pellentesque sollicitudin, libero eget pulvinar tincidunt, 
+                  turpis dolor porta erat, nec vehicula sem ligula et neque. Ut congue tortor vel nibh porttitor, et ultricies odio placerat.
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit dolor vitae finibus condimentum.
+
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/img/favicon.png" class="img-fluid strand">
+                <img src="static/img/speakers/harold.jpeg" class="speaker-img">
+                <h3>Bob Smith</h3>
+                <h4>Chief of Bobs</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="speaker-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Praesent vitae placerat sapien. Sed ultrices ligula eget quam tristique tempor. Fusce maximus, 
+                  turpis eget pretium efficitur, tortor nisi semper nisi, sed vehicula neque erat et elit. Curabitur massa nunc, 
+                  vehicula non metus in, egestas elementum ligula. Pellentesque sollicitudin, libero eget pulvinar tincidunt, 
+                  turpis dolor porta erat, nec vehicula sem ligula et neque. Ut congue tortor vel nibh porttitor, et ultricies odio placerat.
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit dolor vitae finibus condimentum.
+
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/img/favicon.png" class="img-fluid strand">
+                <img src="static/img/speakers/harold.jpeg" class="speaker-img">
+                <h3>Bob Smith</h3>
+                <h4>Chief of Bobs</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="speaker-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Praesent vitae placerat sapien. Sed ultrices ligula eget quam tristique tempor. Fusce maximus, 
+                  turpis eget pretium efficitur, tortor nisi semper nisi, sed vehicula neque erat et elit. Curabitur massa nunc, 
+                  vehicula non metus in, egestas elementum ligula. Pellentesque sollicitudin, libero eget pulvinar tincidunt, 
+                  turpis dolor porta erat, nec vehicula sem ligula et neque. Ut congue tortor vel nibh porttitor, et ultricies odio placerat.
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit dolor vitae finibus condimentum.
+
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="static/img/favicon.png" class="img-fluid strand">
+                <img src="static/img/speakers/harold.jpeg" class="speaker-img">
+                <h3>Bob Smith</h3>
+                <h4>Chief of Bobs</h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      </div>
+    </section>
+
+    <section id="organisers" class="speakers organisers">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Organisers</h2>
+          <p>This conference has been arranged by an awesome team, make sure you say hi if you recognise any of us!</p>
+        </div>
+
+        <div class="organisers-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide text-center">
+              <div class="speaker-item">
+                <img src="static/img/speakers/alex_c.png" class="speaker-img">
+                <h3>Alex C</h3>
+                <h4>Some things</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide text-center">
+              <div class="speaker-item">
+                <img src="static/img/speakers/alex_c.png" class="speaker-img">
+                <h3>Alex C</h3>
+                <h4>Some things</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide text-center">
+              <div class="speaker-item">
+                <img src="static/img/speakers/alex_c.png" class="speaker-img">
+                <h3>Alex C</h3>
+                <h4>Some things</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide text-center">
+              <div class="speaker-item">
+                <img src="static/img/speakers/alex_c.png" class="speaker-img">
+                <h3>Alex C</h3>
+                <h4>Some things</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide text-center">
+              <div class="speaker-item">
+                <img src="static/img/speakers/alex_c.png" class="speaker-img">
+                <h3>Alex C</h3>
+                <h4>Some things</h4>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="organisers-swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="files" class="strands files section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Files</h2>
+        </div>
+
+        <div class="row gy-4 gx-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <a target="_blank" href="static/img/content/lorem-ipsum.png">
+              <div class="icon-box iconbox-blue">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/content/lorem-ipsum.png" class="img-fluid" alt="">
+                </div>
+                <h4>Lorem ipsum</h4>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <a target="_blank" href="static/img/content/lorem-ipsum.png">
+              <div class="icon-box iconbox-blue">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/content/lorem-ipsum.png" class="img-fluid" alt="">
+                </div>
+                <h4>Lorem ipsum</h4>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <a target="_blank" href="static/img/content/lorem-ipsum.png">
+              <div class="icon-box iconbox-blue">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/content/lorem-ipsum.png" class="img-fluid" alt="">
+                </div>
+                <h4>Lorem ipsum</h4>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <a target="_blank" href="static/img/content/lorem-ipsum.png">
+              <div class="icon-box iconbox-blue">
+                <div class="icon d-flex justify-content-center col-lg-6 order-1 order-lg-2" data-aos="zoom-in"
+                  data-aos-delay="150">
+                  <img src="static/img/content/lorem-ipsum.png" class="img-fluid" alt="">
+                </div>
+                <h4>Lorem ipsum</h4>
+              </div>
+            </a>
+          </div>
+
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Here are the most common questions we have had, if you have any others please reach out to us.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li class="faq-li" data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                data-bs-target="#faq-list-1">Where is the conference? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The conference is soon, TBC.
+                </p>
+              </div>
+            </li>
+
+            <li class="faq-li" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                class="collapsed">Is there parking? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Maybe
+                </p>
+              </div>
+            </li>
+
+            <li class="faq-li" data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                class="collapsed">Is there parking? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Maybe
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <footer id="footer">
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Alex C</span></strong>.
+            <span class="credits">Based on a template from <a href="https://bootstrapmade.com/">BootstrapMade</a></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="static/vendor/purecounter/purecounter.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <script src="static/main.js"></script>
+
+</body>
+
+</html>
